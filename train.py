@@ -49,7 +49,7 @@ model.compile(loss='categorical_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
-model.fit(x_train,y_train,epochs=1)
+model.fit(x_train,y_train,epochs=25)
 
 model.save('model.h5')
 
